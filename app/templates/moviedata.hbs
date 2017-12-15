@@ -1,0 +1,29 @@
+<h2>Movie Data</h2>
+<button {{action 'renderColumn'}} id="rendcolumn">Column chart</button>  
+<button {{action 'renderBar'}} id="rendbar">Bar chart</button>  
+<button {{action 'renderLine'}} id="rendline">Line chart</button>  
+<button {{action 'renderArea'}} id="rendarea">Area chart</button>  
+<br><br>  
+<form>  
+    <div id="chart-container">FusionCharts will render here</div>  
+    <br>  
+    <div>  
+        <label>Enter your own DataSource and click the button : </label><br>  
+        {{textarea value=myds  rows="8" cols="99" placeholder="Enter the dataSource here without /* or // comments"}}  
+    </div>  
+      
+    <button {{action 'renderChart'}} id="rend">Render Chart</button>  
+</form>
+
+ {{#each model as |moviedata|}}   
+<div class="movie">
+  
+    <h1>{{moviedata.rankTitle}}</h1>
+    <p>{{moviedata.rating}}</p>
+    <p>{{moviedata.Year}}</p>
+    <p>{{moviedata.totalRevenue}}</p>
+    <p>{{moviedata.Genre}}</p>
+  
+  
+</div>
+{{/each}}

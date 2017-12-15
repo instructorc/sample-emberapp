@@ -7,6 +7,12 @@ const Router = EmberRouter.extend({
 });
 
 Router.map(function() {
+  this.route('scientists');
+  this.route('moviedata');
+
+  this.route('ChartList', function() {
+    this.route('chart2');
+  });
 });
 
 export default Router;
