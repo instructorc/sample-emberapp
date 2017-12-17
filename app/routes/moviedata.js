@@ -13,15 +13,15 @@ var movieData = [
       "rankTitle": "2. The Godfather (1972)",
       "rating": 9.2,
       "Year": 1972,
-      "totalRevenue": "134,966,411",
-      "openRevenue": "302,393",
+      "totalRevenue": "134966411",
+      "openRevenue": "302393",
       "Genre": "Crime, Drama"
     },
     {
       "rankTitle": "3. The Godfather: Part II (1974)",
       "rating": 9,
       "Year": 1974,
-      "totalRevenue": "57,300,000",
+      "totalRevenue": "57300000",
       "openRevenue": "244,000",
       "Genre": "Crime, Drama"
     },
@@ -29,7 +29,7 @@ var movieData = [
       "rankTitle": "4. The Dark Knight (2008)",
       "rating": 9,
       "Year": 2008,
-      "totalRevenue": "534,858,444",
+      "totalRevenue": "534858444",
       "openRevenue": "158,411,483",
       "Genre": "Action, Crime, Drama"
     },
@@ -45,7 +45,7 @@ var movieData = [
       "rankTitle": "6. Schindler's List (1993)",
       "rating": 8.9,
       "Year": 1993,
-      "totalRevenue": "96,045,248",
+      "totalRevenue": "96045248",
       "openRevenue": "656,636",
       "Genre": "Biography, Drama, History"
     },
@@ -53,7 +53,7 @@ var movieData = [
       "rankTitle": "7. Pulp Fiction (1994)",
       "rating": 8.9,
       "Year": 1994,
-      "totalRevenue": "107,928,762",
+      "totalRevenue": "107928762",
       "openRevenue": "9,311,882",
       "Genre": "Crime, Drama"
     },
@@ -61,7 +61,7 @@ var movieData = [
       "rankTitle": "8. The Lord of the Rings: The Return of the King(2003)",
       "rating": 8.9,
       "Year": 2003,
-      "totalRevenue": "377,845,905",
+      "totalRevenue": "377845905",
       "openRevenue": "72,629,713",
       "Genre": "Adventure, Drama, Fantasy"
     },
@@ -69,7 +69,7 @@ var movieData = [
       "rankTitle": "9. The Good, the Bad and the Ugly (1966)",
       "rating": 8.8,
       "Year": 1966,
-      "totalRevenue": "25,100,000",
+      "totalRevenue": "25100000",
       "openRevenue": null,
       "Genre": "Western"
     },
@@ -77,7 +77,7 @@ var movieData = [
       "rankTitle": "10. Fight Club (1999)",
       "rating": 8.8,
       "Year": 1999,
-      "totalRevenue": "37,030,102",
+      "totalRevenue": "37030102",
       "openRevenue": "11,035,485",
       "Genre": "Drama"
     },
@@ -85,7 +85,7 @@ var movieData = [
       "rankTitle": "11. The Lord of the Rings: The Fellowship of the Ring(2001)",
       "rating": 8.8,
       "Year": 2001,
-      "totalRevenue": "315,544,750",
+      "totalRevenue": "315544750",
       "openRevenue": "66,114,741",
       "Genre": "Adventure, Drama, Fantasy"
     },
@@ -2039,48 +2039,48 @@ var movieData = [
              "alpha": "85", 
          },   
          {  
-             "label": "Messi",  
-             "value": "80000000",  
+            "label": movieData[1].rankTitle,  
+            "value": movieData[1].totalRevenue,   
              "alpha": "85"  
          },   
          {  
-             "label": "Neymar",  
-             "value": "37000000",  
+            "label": movieData[2].rankTitle,  
+            "value": movieData[2].totalRevenue,   
              "alpha": "75"  
          },   
          {  
-             "label": "Gareth{br}Bale",  
-             "value": "34000000",  
+            "label": movieData[3].rankTitle,  
+            "value": movieData[3].totalRevenue,  
              "alpha": "65"  
          },   
          {  
-             "label": "Zlatan{br}Ibrhimovic",  
-             "value": "32000000",  
+            "label": movieData[4].rankTitle,  
+            "value": movieData[4].totalRevenue,  
              "alpha": "56"  
          },   
          {  
-             "label": "Wayne{br}Rooney",  
-             "value": "23600000",  
+            "label": movieData[5].rankTitle,  
+            "value": movieData[5].totalRevenue,  
              "alpha": "50"  
          },   
          {  
-             "label": "Luis Suarez",  
-             "value": "23300000",  
+            "label": movieData[6].rankTitle,  
+            "value": movieData[6].totalRevenue,   
              "alpha": "45"  
          },   
          {  
-             "label": "Sergio{br}Aguero",  
-             "value": "13700000",  
+            "label": movieData[7].rankTitle,  
+            "value": movieData[7].totalRevenue, 
              "alpha": "35"  
          },   
          {  
-             "label": "James{br}Rodriguez",  
-             "value": "29100000",  
+            "label": movieData[8].rankTitle,  
+            "value": movieData[8].totalRevenue,  
              "alpha": "30"  
          },   
          {  
-             "label": "Paul{br}Pogba",  
-             "value": "21200000",  
+            "label": movieData[9].rankTitle,  
+            "value": movieData[9].totalRevenue,   
              "alpha": "20"  
          }  
      ]  
